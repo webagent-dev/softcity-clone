@@ -1,0 +1,51 @@
+{
+    "navbar":[
+        {
+        "id": 1,
+            "name": "Home"
+        },
+        {
+        "id": 2,
+            "name": "About",
+            "option": [
+                {
+                    "id": 1,
+                    "title": "our complany"
+                    
+                },
+                {
+                    "id": 2,
+                    "title": "our company"
+                },
+                {
+                    "id": 3,
+                    "title":"our company"
+                }
+            ]
+        },
+        {
+        "id": 3,
+            "name": "service"
+        },
+        {
+        "id": 4,
+            "name": "Awards"
+        },
+        {
+            "id": 5,
+            "name": "in the news"
+        },
+        {
+            "id": 6,
+            "name": "portfolio"
+        },
+        {
+            "id": 7,
+            "name": "testimonials"
+        },
+        {
+            "id": 8,
+            "name": "contact"
+        }
+    ]
+}
