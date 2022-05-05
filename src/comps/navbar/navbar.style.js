@@ -5,6 +5,10 @@ export const NavbarContainer = styled.div`
    display: flex;
    align-items: center;
    justify-content: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
 `
 export const Nav = styled.p`
    cursor: pointer;

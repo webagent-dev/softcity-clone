@@ -1,11 +1,18 @@
-import React from 'react'
-import { VideoContainer } from './video.style'
+import React, { useState } from 'react'
+import { VideoContainer, Container,Img, Vidoe, OverLay } from './video.style'
 function Video() {
+  const [ show, setShow] = useState(true)
+  console.log(show)
   return (
     <VideoContainer>
-        <VideoContainer>
-           Vidoe - Container
-           </VideoContainer>
+              <OverLay>
+       <Container>
+         {
+           show ?  <Img  src='/img/bg.jpg' alt='main-photo' />
+           : <Vidoe />
+         }
+        </Container>
+         </OverLay> 
     </VideoContainer>
   )
 }
