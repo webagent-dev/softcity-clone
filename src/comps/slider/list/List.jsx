@@ -1,13 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState, useCallback } from 'react'
 import { ListContainer,Image, Num, ListContent, Header, Text  } from './list.styled'
-function List() {
+function List({item,i}) {
+  const [index, setIndex] = useState(0)
+  const handleSlider =useCallback( (direction) => {
+      if(direction === 'left'){
+        setIndex(index > 0 ? index - 1 : 3  - 1)
+      }else{
+        setIndex(index < 3 -1 ? index + 1 : 0)
+      }
+  },[index])
+
+  useEffect(() => {
+    const getSlider = setInterval(() => {
+      handleSlider('right')
+      return () => clearInterval(getSlider)
+    },5000)
+  },[ handleSlider])
   return (
-    <ListContainer>
-        <Image />
-        <Num>05</Num>
+    <ListContainer index={index}>
+        <Image  src={item.image} alt={item.title}/>
+        <Num>{item.id}</Num>
         <ListContent>
-            <Header>automated fire systems</Header>
-            <Text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni quasi assumenda eveniet commodi, quos cumque.</Text>
+            <Header>{item.title}</Header>
+            <Text>{item.text}</Text>
         </ListContent>
         </ListContainer>
   )

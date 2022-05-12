@@ -5,6 +5,7 @@ export const SliderContainer = styled.div`
     height: 100%
     padding: 20px 0px;
     margin-top: 30px;
+    overflow: hidden;
 `
 
 export const Wrapper = styled.div`
@@ -34,7 +35,7 @@ export const Underline = styled.div`
     height: 10px;
 `
 export const MainSlid = styled.div`
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     gap: 2rem;

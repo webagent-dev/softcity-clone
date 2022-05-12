@@ -1,8 +1,15 @@
 import React from 'react'
 import { SliderContainer, Wrapper, Header, Small, Underline, MainSlid, UnderLineContainer } from './slider.style'
+import axios from 'axios'
 import List from './list/List'
+import { useQuery } from 'react-query'
+
 const item = [1,2,3,4,5,6,7,]
 function Slider() {
+  const { data }  = useQuery('get_slider', () => {
+    return axios.get('http://localhost:8080/Slider')
+  })
+  console.log(data?.data)
   return (
     <SliderContainer>
         <Wrapper>
@@ -15,7 +22,7 @@ function Slider() {
             </UnderLineContainer>
           <MainSlid>
             {
-              item.map((items) => ( <List key={items} />))
+              data?.data.map((items, i) => ( <List key={items.id}  item={items}  index={i} />))
             }
           </MainSlid>
         </Wrapper>

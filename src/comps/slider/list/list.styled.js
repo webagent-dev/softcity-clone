@@ -5,14 +5,19 @@ export const ListContainer = styled.div`
     height; auto;
     position: relative;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2.5rem;
+      // transform: translateX(-350px);
+      transform: translateX(${props => props.index * -760}px);
+      transition: all 1s ease-in-out; 
 `
 
-export const Image = styled.div`
+export const Image = styled.img`
     width: 100%;
     height: 250px;
     background: blue;
+    object-fit: center;
 `
  export const Num = styled.h1`
        color: red; 
@@ -30,7 +35,7 @@ export const Image = styled.div`
   export const  Header = styled.h1`
     color: red;
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
   `
    export const  Text = styled.p`
