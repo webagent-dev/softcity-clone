@@ -36,6 +36,7 @@ width: 100%;
     color: red;
     text-transform: capitalize;
     padding: 10px 0px;
+    font-size: 18px;
   `
   export const   UnderLine =styled.div`
     width: 10px;
@@ -66,6 +67,7 @@ width: 100%;
        export const MainContainer =styled.div`
         display: flex;
         gap: 2rem;
+
        `
       export const  Content =styled.div`
         display: flex;

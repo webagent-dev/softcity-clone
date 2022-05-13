@@ -48,25 +48,47 @@ display: flex;
 align-items: center;
 justify-content: center;
 overflow: hidden;
-    gap: .5rem;
+    gap: 1rem;
     margin: 20px 0px;
+// transform: translateX(500px);
  `
-export const  Slid = styled.div`
-    min-width: 130px;
+export const  Slid = styled.img`
+    min-width: 165px;
     height: 70px;
-    background: red;
+    object-fit: center;
+
 `
  export const SliderBtn = styled.div`
  width: 100%;
  display: flex;
  align-items: center;
  justify-content: center;
+
  `
- export const Btn  = styled.div`
+ export const Btn  = styled.button`
     width: 80px;
     height: 40px;
     border: 2px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .1s ease-in-out;
+
+    &:disabled{
+        // border-color: red;
+        opacity: 0.5;
+    }
+ `
+
+ export const Line = styled.div`
+     width: 20px;
+     height: 70px;
+     border-left: 2px solid lightgray;
+    
+ `
+ export const Item = styled.div`
+ display: flex;
+ gap: 1rem;
+    transform: translateX(${props => props.index * -330}px);
+    transition: all .2s linear;
  `

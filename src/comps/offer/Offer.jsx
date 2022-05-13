@@ -31,7 +31,7 @@ function Offer() {
       </UnderLineContainer>
       <GridContainer>
         <MainContainer>
-<DiAndroid   size='80px' />
+<DiAndroid   color='red'  size='120px'/>
           <Content>
             <TextContent>
               <Headers>Android Development</Headers>
@@ -41,79 +41,79 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-<DiAndroid  size='80px' />
+<DiApple  color='red'  size='120px' />
           <Content>
             <TextContent>
-              <Headers>Android Development</Headers>
+              <Headers>IOS Development</Headers>
               <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
           </TextContent>
             <Mark />
           </Content>
         </MainContainer>
         <MainContainer>
-<DiAndroid  size='80px' />
+<  RiWindowLine  color='red'  size='120px' />
           <Content>
             <TextContent>
-              <Headers>Android Development</Headers>
+              <Headers>Custom Development</Headers>
               <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
           </TextContent>
 
           </Content>
         </MainContainer>
         <MainContainer>
-<DiAndroid  size='80px'  />
+< GiCctvCamera  color='red'  size='120px'  />
           <Content>
             <TextContent>
-              <Headers>Android Development</Headers>
+              <Headers>camera surveillance</Headers>
               <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
           </TextContent>
             <Mark />
           </Content>
         </MainContainer>
         <MainContainer>
-<DiAndroid size='80px' />
+< BsUnlock color='red'  size='120px' />
           <Content>
             <TextContent>
-              <Headers>Android Development</Headers>
+              <Headers>access control</Headers>
               <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
           </TextContent>
             <Mark />
           </Content>
         </MainContainer>
         <MainContainer>
-<DiAndroid  size='80px'  />
+<GiCelebrationFire  color='red'  size='120px' />
           <Content>
             <TextContent>
-              <Headers>Android Development</Headers>
+              <Headers>fire systems</Headers>
               <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
           </TextContent>
           </Content>
         </MainContainer>
         <MainContainer>
-<DiAndroid  size='80px' />
+<RiThumbUpLine  color='red'  size='120px' />
           <Content>
             <TextContent>
-              <Headers>Android Development</Headers>
-              <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
-          </TextContent>
-            <Mark />
-          </Content>
-        </MainContainer>
-        <MainContainer>
-<DiAndroid  size='80px' />
-          <Content>
-            <TextContent>
-              <Headers>Android Development</Headers>
+              <Headers>digitized safety</Headers>
               <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
           </TextContent>
             <Mark />
           </Content>
         </MainContainer>
         <MainContainer>
-<DiAndroid   size='80px'/>
+<BsSunglasses  color='red'  size='120px'/>
           <Content>
             <TextContent>
-              <Headers>Android Development</Headers>
+              <Headers>smart automations</Headers>
+              <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
+          </TextContent>
+            <Mark />
+          </Content>
+        </MainContainer>
+        <MainContainer>
+<RiPieChart2Line color='red'  size='120px'/>
+          <Content>
+            <TextContent>
+              <Headers>Gamified intelligence</Headers>
               <Text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, neque rem vitae commodi ipsum beatae.</Text>
           </TextContent>
           </Content>

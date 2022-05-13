@@ -1,8 +1,24 @@
-import React from 'react'
-import { CtaContainer,Wrapper, Header, Text, UnderLineContainer,UnderLine, SliderContainer,Slid, SliderBtn,Btn } from './cta.style'
+import React, { useState } from 'react'
+import { CtaContainer,Wrapper, Header, Text, UnderLineContainer,UnderLine, SliderContainer,Slid, SliderBtn,Btn, Line, Item } from './cta.style'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
-const item = [1,2,3,4,5,6,7,8,9,10,11,12]
+import { useQuery } from 'react-query'
+import axios from 'axios'
 function Cta() {
+  const [index, setIndex] = useState(0)
+  const [count, setCount ] = useState(0)
+  const { data } = useQuery('get_cta', () => {
+    return axios.get('http://localhost:8080/cta')
+  })
+  console.log(count)
+  const handleSlider = (direction) => {
+    if (direction === 'left') {
+      setIndex(index > 0 ? index - 1 : data?.data.length - 1)
+      setCount(state => state - 1)
+    } else {
+      setIndex(index < data?.data.length - 1 ? index + 1 : 0)
+      setCount(state => state + 1)
+      }
+  }
   return (
     <CtaContainer>
       <Wrapper>
@@ -15,16 +31,23 @@ function Cta() {
         </UnderLineContainer>
         <SliderContainer>
       {
-        item.map((item) => ( <Slid key={item}> </Slid>))
+        data?.data.map((item) => ( 
+          <Item key={item.id} index={index}>
+            <Slid  src={item.img} alt={item.id} /> 
+            <Line></Line>
+        </Item >
+        ))
       }
         </SliderContainer>
         <SliderBtn>
-                    <Btn>
-          <IoIosArrowBack />
-        </Btn>
-    <Btn>
-          <IoIosArrowForward />
-       </Btn>
+          <Btn disabled={ count === 0} onClick={() => handleSlider('left')}>
+              <IoIosArrowBack />
+            </Btn>
+          
+          <Btn disabled={count > 5}  onClick={() => handleSlider('right')}>
+              <IoIosArrowForward />
+            </Btn>
+          
         </SliderBtn>
         
   
