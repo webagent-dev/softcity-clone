@@ -2,13 +2,14 @@ import React, { useEffect, useState, useCallback } from 'react'
 import { ListContainer,Image, Num, ListContent, Header, Text  } from './list.styled'
 function List({item,i}) {
   const [index, setIndex] = useState(0)
-  const handleSlider =useCallback( (direction) => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const handleSlider = (direction) => ````{
       if(direction === 'left'){
         setIndex(index > 0 ? index - 1 : 3  - 1)
       }else{
         setIndex(index < 3 -1 ? index + 1 : 0)
       }
-  },[index])
+  }
 
   useEffect(() => {
     const getSlider = setInterval(() => {

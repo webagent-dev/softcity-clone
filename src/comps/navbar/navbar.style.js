@@ -40,7 +40,15 @@ export const Wrapper = styled.div`
       height: 50px;
  `
  export const Options = styled.h3``
- export const OptionWrapper = styled.div``
+export const OptionWrapper = styled.div`
+ width: 600px;
+height: 500px;
+background: red;
+  position: absolute;
+//   top: -500px;
+  bottom: -300px
+
+ `
  export const  NavWrapper = styled.div`
       display: flex;
       position: absolute;

@@ -1,0 +1,12 @@
+           <React.Fragment key={items.id}>
+              {
+                items.option 
+                ?
+                 <ReactTooltip
+                 data-tip='hello-world'
+                 >
+                   <Nav>{items.name}</Nav>
+                   </ReactTooltip>
+                : <Nav>{items.name}</Nav>
+              }
+           </React.Fragment>

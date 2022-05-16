@@ -23,12 +23,12 @@ const { data } = useQuery('get-nav', () => {
       <NavWrapper>
        {
          data?.data.map((items) => (
-           <React.Fragment key={items.id}>
+             <React.Fragment key={items.id}>
               {
                 items.option 
                 ?
                  <ReactTooltip
-                 data-tip={'hello-world'}
+                 data-tip='hello-world'
                  >
                    <Nav>{items.name}</Nav>
                    </ReactTooltip>

@@ -1,34 +1,46 @@
 {
-    "navbar":[
-        {
-        "id": 1,
+    "navbar": [{
+            "id": 1,
             "name": "Home"
         },
         {
-        "id": 2,
+            "id": 2,
             "name": "About",
-            "option": [
-                {
+            "option": [{
                     "id": 1,
-                    "title": "our complany"
-                    
+                    "title": "Our company"
+
                 },
                 {
                     "id": 2,
-                    "title": "our company"
+                    "title": "Our Team"
                 },
                 {
                     "id": 3,
-                    "title":"our company"
+                    "title": "Our Clientele"
                 }
             ]
         },
         {
-        "id": 3,
-            "name": "service"
+            "id": 3,
+            "name": "service",
+            "option": [{
+                    "id": 1,
+                    "title": "second option"
+
+                },
+                {
+                    "id": 2,
+                    "title": "second option"
+                },
+                {
+                    "id": 3,
+                    "title": "second option"
+                }
+            ]
         },
         {
-        "id": 4,
+            "id": 4,
             "name": "Awards"
         },
         {
@@ -48,119 +60,118 @@
             "name": "contact"
         }
     ],
-    "Slider":[
-    
-    {
-        "id": "01",
-        "title":"digitized safety systems",
-        "image": "/img/other-2.jpg",
-        "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
-    },
-    {
-        "id": "02",
-        "title":"automated fire systems",
-        "image": "/img/other-3.jpg",
-             "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
-    },
-    {
-        "id": "03",
-        "title":"artifical Intelligence",
-        "image": "/img/other-7.jpg",
-             "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
-    },
-    {
-        "id": "04",
-        "title":"smart automation",
-        "image": "/img/other-1.jpg",
-             "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
-    },
-    {
-        "id": "05",
-        "title":"bespoke digitalization",
-        "image": "/img/other-4.jpg",
-         "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
-    },
-    {
-        "id": "06",
-        "title":"digital security system",
-        "image": "/img/other-5.jpg",
-         "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
-    },
-    {
-        "id": "07",
-        "title":"software development   ",
-        "image": "/img/other-6.jpg",
-         "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
-    }
+    "Slider": [
+
+        {
+            "id": "01",
+            "title": "digitized safety systems",
+            "image": "/img/other-2.jpg",
+            "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
+        },
+        {
+            "id": "02",
+            "title": "automated fire systems",
+            "image": "/img/other-3.jpg",
+            "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
+        },
+        {
+            "id": "03",
+            "title": "artifical Intelligence",
+            "image": "/img/other-7.jpg",
+            "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
+        },
+        {
+            "id": "04",
+            "title": "smart automation",
+            "image": "/img/other-1.jpg",
+            "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
+        },
+        {
+            "id": "05",
+            "title": "bespoke digitalization",
+            "image": "/img/other-4.jpg",
+            "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
+        },
+        {
+            "id": "06",
+            "title": "digital security system",
+            "image": "/img/other-5.jpg",
+            "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
+        },
+        {
+            "id": "07",
+            "title": "software development   ",
+            "image": "/img/other-6.jpg",
+            "text": "Lorem ipsum dolor, sit amet consectetur adiasi assumenda eveniet cpisicos cumque.ing elit. Magni quommodi,"
+        }
     ],
-"cta":[
-            {
-                "id": 1,
-                "img": "/img/icon-1.png"
-            },
-            {
-                "id": 2,
-                "img": "/img/icon-2.png"
-            },
-            {
-                "id": 3,
-                "img": "/img/icon-3.png"
-            },
-            {
-                "id": 4,
-                "img": "/img/icon-4.png"
-            },
-            {
-                "id": 5,
-                "img": "/img/icon-5.png"
-            },
-            {
-                "id": 6,
-                "img": "/img/icon-6.png"
-            },
-            {
-                "id":7 ,
-                "img": "/img/icon-7.png"
-            },
-            {
-                "id": 8,
-                "img": "/img/icon-8.png"
-            },
-            {
-                "id": 9,
-                "img": "/img/icon-9.png"
-            },
-            {
-                "id": 10,
-                "img": "/img/icon-0.png"
-            },
-            {
-                "id": 11,
-                "img": "/img/more-1.png"
-            },
-            {
-                "id": 12,
-                "img": "/img/more-2.png"
-            },
-            {
-                "id": 13,
-                "img": "/img/more-3.png"
-            },
-            {
-                "id": 14,
-                "img": "/img/more-4.png"
-            },
-            {
-                "id": 15,
-                "img": "/img/more-5.png"
-            },
-            {
-                "id": 16,
-                "img": "/img/more-6.png"
-            },
-            {
-                "id": 17,
-                "img": "/img/more-7.png"
-            }
+    "cta": [{
+            "id": 1,
+            "img": "/img/icon-1.png"
+        },
+        {
+            "id": 2,
+            "img": "/img/icon-2.png"
+        },
+        {
+            "id": 3,
+            "img": "/img/icon-3.png"
+        },
+        {
+            "id": 4,
+            "img": "/img/icon-4.png"
+        },
+        {
+            "id": 5,
+            "img": "/img/icon-5.png"
+        },
+        {
+            "id": 6,
+            "img": "/img/icon-6.png"
+        },
+        {
+            "id": 7,
+            "img": "/img/icon-7.png"
+        },
+        {
+            "id": 8,
+            "img": "/img/icon-8.png"
+        },
+        {
+            "id": 9,
+            "img": "/img/icon-9.png"
+        },
+        {
+            "id": 10,
+            "img": "/img/icon-0.png"
+        },
+        {
+            "id": 11,
+            "img": "/img/more-1.png"
+        },
+        {
+            "id": 12,
+            "img": "/img/more-2.png"
+        },
+        {
+            "id": 13,
+            "img": "/img/more-3.png"
+        },
+        {
+            "id": 14,
+            "img": "/img/more-4.png"
+        },
+        {
+            "id": 15,
+            "img": "/img/more-5.png"
+        },
+        {
+            "id": 16,
+            "img": "/img/more-6.png"
+        },
+        {
+            "id": 17,
+            "img": "/img/more-7.png"
+        }
     ]
 }
