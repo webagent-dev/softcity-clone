@@ -5,11 +5,18 @@ export const OfferContainer = styled.div`
     height: 100%;
     margin-top: 30px;
     padding: 20px;
+     @media(max-width: 500px){
+        margin-top: 10px;
+    }
 `
 
 export const Wrapper  =styled.div`
     width: 80%;
     margin: 0 auto;
+
+    @media(max-width: 500px){
+      width: 100%;
+    }
 `
 export const  LineContainer =styled.div`
 width: 100%;
@@ -63,11 +70,18 @@ width: 100%;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2.5rem;
         margin-top: 30px;
+         @media(max-width: 500px){
+            gap: 1rem;
+            margin-top: 10px;
+    }
      `
        export const MainContainer =styled.div`
         display: flex;
         gap: 2rem;
-
+  @media (max-width: 755px) { 
+     flex-direction: column;
+     gap: 1rem;
+  }
        `
       export const  Content =styled.div`
         display: flex;
@@ -78,6 +92,10 @@ width: 100%;
             width: 8px;
             height: 80%;
             background: lightgray;
+
+            @media (max-width: 830px) { 
+              display: none;
+      }
         `
         export const Small = styled.h3`
             text-align: center;
@@ -94,4 +112,7 @@ width: 100%;
             // justify-self: flex-end;
             margin-left: 25px;
 
+                @media (max-width: 755px) { 
+                  margin-left: 0px;
+  }
         `

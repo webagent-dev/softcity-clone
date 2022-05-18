@@ -3,7 +3,8 @@ import { OfferContainer, Wrapper, LineContainer, Line, Header, Headers, UnderLin
 import { DiAndroid, DiApple  } from 'react-icons/di'
 import { BsUnlock,BsSunglasses } from 'react-icons/bs'
 import {  RiWindowLine, RiThumbUpLine,RiPieChart2Line  } from 'react-icons/ri'
-import {  GiCctvCamera,GiCelebrationFire } from 'react-icons/gi'
+import { GiCctvCamera, GiCelebrationFire } from 'react-icons/gi'
+
 function Offer() {
   return (
     <OfferContainer>
@@ -31,7 +32,7 @@ function Offer() {
       </UnderLineContainer>
       <GridContainer>
         <MainContainer>
-<DiAndroid   color='red'  size='120px'/>
+<DiAndroid    color='red' size='60px' />
           <Content>
             <TextContent>
               <Headers>Android Development</Headers>
@@ -41,7 +42,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-<DiApple  color='red'  size='120px' />
+<DiApple   color='red' size='60px' />
           <Content>
             <TextContent>
               <Headers>IOS Development</Headers>
@@ -51,7 +52,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-<  RiWindowLine  color='red'  size='120px' />
+<  RiWindowLine  color='red' size='60px' />
           <Content>
             <TextContent>
               <Headers>Custom Development</Headers>
@@ -61,7 +62,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-< GiCctvCamera  color='red'  size='120px'  />
+< GiCctvCamera  color='red' size='60px' />
           <Content>
             <TextContent>
               <Headers>camera surveillance</Headers>
@@ -71,7 +72,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-< BsUnlock color='red'  size='120px' />
+< BsUnlock  color='red' size='60px' />
           <Content>
             <TextContent>
               <Headers>access control</Headers>
@@ -81,7 +82,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-<GiCelebrationFire  color='red'  size='120px' />
+<GiCelebrationFire  color='red' size='60px'/>
           <Content>
             <TextContent>
               <Headers>fire systems</Headers>
@@ -90,7 +91,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-<RiThumbUpLine  color='red'  size='120px' />
+<RiThumbUpLine  color='red' size='60px' />
           <Content>
             <TextContent>
               <Headers>digitized safety</Headers>
@@ -100,7 +101,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-<BsSunglasses  color='red'  size='120px'/>
+<BsSunglasses   color='red' size='60px' />
           <Content>
             <TextContent>
               <Headers>smart automations</Headers>
@@ -110,7 +111,7 @@ function Offer() {
           </Content>
         </MainContainer>
         <MainContainer>
-<RiPieChart2Line color='red'  size='120px'/>
+<RiPieChart2Line color='red' size='60px'  />
           <Content>
             <TextContent>
               <Headers>Gamified intelligence</Headers>

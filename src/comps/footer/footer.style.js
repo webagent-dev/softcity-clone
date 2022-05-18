@@ -14,8 +14,22 @@ export const FooterContainer = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 980px) { 
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
  `
- export const First = styled.div``
+export const First = styled.div`
+ 
+@media (max-width: 980px) { 
+   display: flex;
+   flex-direction: column;
+      align-items: center;
+
+  }
+ `
  export const Img = styled.img`
     height: 25px;
  `
@@ -24,6 +38,10 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     gap: .5rem;
     font-family: monospace;
+    @media (max-width: 980px) { 
+   //   flex-direction: row;
+   align-items: center;
+  }
  `
  export const Text = styled.div`
  &:after{
@@ -51,6 +69,10 @@ export const FooterContainer = styled.div`
     align-items: flex-end;
     flex-direction: column;
     gap: .8rem;
+
+    @media (max-width: 980px) { 
+ 
+  }
  `
  export const  Foot = styled.div`
     font-family: monospace;

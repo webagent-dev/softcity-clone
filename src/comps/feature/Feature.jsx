@@ -17,7 +17,7 @@ function Feature() {
     <Second>
       <SecondWrapper>
         <InnerWrapper>
-    <RiWindowLine size='40px' />
+    <RiWindowLine size='30px' />
     <Num>186</Num>
     <Small>Automation Projects</Small>
     </InnerWrapper>
@@ -25,7 +25,7 @@ function Feature() {
       </SecondWrapper>
       <SecondWrapper>
         <InnerWrapper>
-       <FaRocket  size='40px' />
+       <FaRocket  size='30px' />
     <Num>392</Num>
     <Small>Apps Deployed</Small>
     </InnerWrapper>
@@ -33,7 +33,7 @@ function Feature() {
       </SecondWrapper>
       <SecondWrapper>
         <InnerWrapper>
-  <IoIosPeople size='40px' />
+  <IoIosPeople size='30px' />
     <Num>1345</Num>
     <Small>Satisfied Clients</Small>
     </InnerWrapper>

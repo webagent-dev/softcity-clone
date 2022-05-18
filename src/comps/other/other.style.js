@@ -5,6 +5,10 @@ export const OtherContainer = styled.div`
     height: 60vh;
     background: lightgray;
     padding: 20px;
+
+     @media (max-width: 980px) { 
+         height: auto;
+  }
 `
 
  export const Wrapper = styled.div`
@@ -12,6 +16,9 @@ export const OtherContainer = styled.div`
     margin: 0 auto;
     font-family: monospace;
     margin-top: 30px;
+     @media (max-width: 980px) { 
+      width: 100%;
+  }
  `
  export const Header = styled.h1`
     color: red;
@@ -19,10 +26,16 @@ export const OtherContainer = styled.div`
     font-size: 30px;
     padding: 10px 0px;
 
+             @media(max-width: 500px){
+            font-size: 25px;
+         }
  `
  export const Small = styled.h3`
     text-align: center;
         padding: 10px 0px;
+                 @media(max-width: 500px){
+            font-size: 12px;
+         }
  `
   export const UnderLineContainer = styled.div`
         width: 100%;
@@ -38,6 +51,9 @@ export const OtherContainer = styled.div`
    display:  flex;
    gap: 1rem;
    align-items: center;
+   @media (max-width: 980px) { 
+     flex-direction: column;
+  }
  `
   export const First = styled.div`
    flex: 1;

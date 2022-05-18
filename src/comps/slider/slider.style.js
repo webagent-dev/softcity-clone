@@ -22,12 +22,20 @@ export const Header = styled.h1`
     text-transform: capitalize;
     font-size: 35px;
     color: red;
+
+             @media(max-width: 500px){
+            font-size: 25px;
+         }
 `
 export const Small = styled.p`
     text-align: center;
     font-size: 20px;
      text-transform: capitalize;
      font-weight: 500;
+
+              @media(max-width: 500px){
+            font-size: 15px;
+         }
 `
 export const Underline = styled.div`
     width: 2px;

@@ -20,6 +20,9 @@ export const Header = styled.div`
     font-family: monospace;
     padding: 10px 0px;
 
+         @media(max-width: 500px){
+            font-size: 25px;
+         }
 `
  export const Text = styled.div`
         text-align: center;
@@ -27,6 +30,9 @@ export const Header = styled.div`
           font-weight: 500;
           font-family: monospace;
           font-size: 15px;
+                   @media(max-width: 500px){
+            font-size: 12px;
+         }
  `
 export const  UnderLineContainer = styled.div`
 width: 100%;
@@ -56,7 +62,10 @@ export const  Slid = styled.img`
     min-width: 165px;
     height: 70px;
     object-fit: center;
-
+                  @media(max-width: 500px){
+                    min-width: 125px;
+                    height: 50px;
+         }
 `
  export const SliderBtn = styled.div`
  width: 100%;
@@ -73,10 +82,12 @@ export const  Slid = styled.img`
     justify-content: center;
     align-items: center;
     transition: all .1s ease-in-out;
+    cursor: pointer;
 
     &:disabled{
         // border-color: red;
         opacity: 0.5;
+        cursor: not-allowed;
     }
  `
 

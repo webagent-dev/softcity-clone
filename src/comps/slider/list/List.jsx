@@ -3,7 +3,7 @@ import { ListContainer,Image, Num, ListContent, Header, Text  } from './list.sty
 function List({item,i}) {
   const [index, setIndex] = useState(0)
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const handleSlider = (direction) => ````{
+  const handleSlider = (direction) => {
       if(direction === 'left'){
         setIndex(index > 0 ? index - 1 : 3  - 1)
       }else{
