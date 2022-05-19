@@ -138,6 +138,8 @@ export const ToggleContainer = styled.div`
   width: 100%;
   background: black;
   padding: 20px;
+  color: white;
+  margin-top: 120px;
    @media (min-width: 980px) {
    display: none;
   }

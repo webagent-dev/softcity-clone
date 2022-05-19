@@ -11,11 +11,14 @@ function List({item,i}) {
       }
   }
 
+  // const prevSlider = () => {
+  //     setIndex(state => state -= 1)
+  // }
   useEffect(() => {
     const getSlider = setInterval(() => {
-      handleSlider('right')
-      return () => clearInterval(getSlider)
+        handleSlider('right')
     },5000)
+         return () => clearInterval(getSlider)
   },[ handleSlider])
   return (
     <ListContainer index={index}>

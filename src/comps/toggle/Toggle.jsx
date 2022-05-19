@@ -1,6 +1,6 @@
 import React, {useState }  from 'react'
 import { ToggleContainer } from '../navbar/navbar.style'
-import { ToggleWrapper, ListWrapper, List, ListBtn  } from './toggle.style'
+import { ToggleWrapper, ListWrapper, List, ListBtn, Lists  } from './toggle.style'
 function Toggle() {
   const [toggleAbout, setToggleAbout] = useState(false)
   const [toggleService, setToggleService] = useState(false)
@@ -10,56 +10,56 @@ function Toggle() {
       <ListWrapper>
         <List>home</List>
       </ListWrapper>
-            <ListWrapper>
+            <ListWrapper onClick={() => setToggleAbout(!toggleAbout)}>
         <List> about</List>
-        <ListBtn></ListBtn>
-        {toggleAbout && (
+      {toggleAbout ? <ListBtn> - </ListBtn> : <ListBtn> + </ListBtn>}
+        </ListWrapper>
+                {toggleAbout && (
           <>
             <ListWrapper>
-        <List>our Company</List>
+        <Lists>our Company</Lists>
             </ListWrapper>
               <ListWrapper>
-        <List>our Team</List>
+        <Lists>our Team</Lists>
             </ListWrapper>
               <ListWrapper>
-        <List>our clientale</List>
+        <Lists>our clientale</Lists>
       </ListWrapper>
           </>
         )}
-      </ListWrapper>
-            <ListWrapper>
+            <ListWrapper onClick={() => setToggleService(!toggleService)}>
         <List>service</List>
-            <ListBtn></ListBtn>
+              {toggleService ? <ListBtn> - </ListBtn> : <ListBtn> + </ListBtn>}
       </ListWrapper>
       {
         toggleService && (
         <>
             <ListWrapper>
-        <List>mobile app development</List>
+        <Lists>mobile app development</Lists>
             </ListWrapper>
                 <ListWrapper>
-        <List>web app development</List>
+        <Lists>web app development</Lists>
       </ListWrapper>
           <ListWrapper>
-        <List>computational intelligence</List>
+        <Lists>computational intelligence</Lists>
             </ListWrapper>
                 <ListWrapper>
-        <List>smart auomation systems</List>
+        <Lists>smart auomation systems</Lists>
             </ListWrapper>
                 <ListWrapper>
-        <List>wireless LAN internet systems</List>
+        <Lists>wireless LAN internet systems</Lists>
             </ListWrapper>
                 <ListWrapper>
-        <List>digital surveillence systems</List>
+        <Lists>digital surveillence systems</Lists>
             </ListWrapper>
                 <ListWrapper>
-        <List>access control systems</List>
+        <Lists>access control systems</Lists>
             </ListWrapper>
                 <ListWrapper>
-        <List>fire suppression systems</List>
+        <Lists>fire suppression systems</Lists>
             </ListWrapper>
                 <ListWrapper>
-        <List>cooperate telephone system</List>
+        <Lists>cooperate telephone system</Lists>
       </ListWrapper>
           </>
         )

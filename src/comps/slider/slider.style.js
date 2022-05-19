@@ -49,6 +49,11 @@ export const MainSlid = styled.div`
     gap: 2rem;
     align-items: center;
     overflow: hidden;
+
+         @media (max-width:972px){
+                width: 100%;
+                gap: 1rem;
+    }  
 `
 export const UnderLineContainer = styled.div`
 width: 100%;
