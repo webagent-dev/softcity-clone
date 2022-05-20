@@ -3,13 +3,13 @@ import { SliderContainer, Wrapper, Header, Small, Underline, MainSlid, UnderLine
 import axios from 'axios'
 import List from './list/List'
 import { useQuery } from 'react-query'
+import { slider } from './data'
 
 const item = [1,2,3,4,5,6,7,]
 function Slider() {
   const { data }  = useQuery('get_slider', () => {
     return axios.get('http://localhost:8080/Slider')
   })
-  console.log(data?.data)
   return (
     <SliderContainer>
         <Wrapper>
@@ -22,7 +22,7 @@ function Slider() {
             </UnderLineContainer>
           <MainSlid>
             {
-              data?.data.map((items, i) => ( <List key={items.id}  item={items}  index={i} />))
+              slider.map((items, i) => ( <List key={items.id}  item={items}  index={i} />))
             }
           </MainSlid>
         </Wrapper>
