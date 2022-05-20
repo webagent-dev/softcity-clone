@@ -7,6 +7,10 @@ export const FooterContainer = styled.div`
     padding: 30px;
     color: gray;
     position: relative;
+    @media(max-width: 500px){
+       height: 180px;
+       padding: 10px;
+    }
 `
 
  export const Wrapper = styled.div`
@@ -14,11 +18,18 @@ export const FooterContainer = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+align-items: center;
 
     @media (max-width: 980px) { 
+       width: 90%;
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     gap: 1rem;
+  }
+
+  @media (max-width: 500px) {
+     width: 100%;
   }
  `
 export const First = styled.div`
@@ -27,7 +38,6 @@ export const First = styled.div`
    display: flex;
    flex-direction: column;
       align-items: center;
-
   }
  `
  export const Img = styled.img`
@@ -96,4 +106,9 @@ export const First = styled.div`
         font-family: monospace;
         font-weight: 700;
         font-size: 12px;
+        @media(max-width:500px){
+           margin-top: 50px;
+         font-size: 10px;
+         // bottom: -10px;
+        }
   `
