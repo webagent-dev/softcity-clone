@@ -15,7 +15,7 @@ export const OtherContainer = styled.div`
     width: 80%;
     margin: 0 auto;
     font-family: monospace;
-    margin-top: 30px;
+    margin-top: 30px
      @media (max-width: 980px) { 
       width: 100%;
   }
@@ -73,5 +73,8 @@ export const OtherContainer = styled.div`
   `
   export const Second = styled.div`
    flex: 1;
+   @media (max-width:500px){
+      width: 100%;
+   }
   `
-  export const Graph = styled.div``
+  export const GraphMainWrapper = styled.div``
