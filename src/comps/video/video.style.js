@@ -14,27 +14,28 @@ export const VideoContainer = styled.div`
         left: 0;
         background: rgba(255, 255, 255,0.5);
          @media(max-width: 950px){
-     height: 80vh;
+            // margin-top: 2rem;
+     height: 70vh;
   }
    @media(max-width: 500px){
-     height: 60vh;
+     height: 50vh;
   }
     }
       @media(max-width: 950px){
-     height: 80vh;
+     height: 70vh;
   }
    @media(max-width: 500px){
-     height: 60vh;
+     height: 50vh;
   }
 `
 export const Container = styled.div`
     width: 100vw;
     height: 100vh;
      @media(max-width: 950px){
-     height: 80vh;
+     height: 70vh;
   }
    @media(max-width: 500px){
-     height: 60vh;
+     height: 50vh;
   }
 `
 export const Img = styled.img`
@@ -42,10 +43,12 @@ export const Img = styled.img`
     height: 100vh;
     object-fit: center;
      @media(max-width: 950px){
-     height: 80vh;
+     height: 70vh;
+     object-fit: center;
   }
    @media(max-width: 500px){
-     height: 60vh;
+     height: 50vh;
+     object-fit: center;
   }
 `
 export const Vidoe = styled.video`
@@ -53,10 +56,12 @@ export const Vidoe = styled.video`
     height: 100vh;
        object-fit: cover;
         @media(max-width: 950px){
-     height: 80vh;
+     height: 70vh;
+     object-fit: center;
   }
    @media(max-width: 500px){
-     height: 60vh;
+     height: 50vh;
+     object-fit: center;
   }
 `
 // export const OverLay = styled.div`

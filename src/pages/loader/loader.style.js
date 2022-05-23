@@ -19,25 +19,32 @@ export const LoaderWrapper = styled.div`
 
     &:after{
         content: "";
-        width:  100%;
-        // height: 100%;
+        width:  50%;
+        height: 50%;
         background:  rgba(255,255,255,0.5);
         position: absolute;
+        transform: translateY(0px);
+        transition: all .2s ease-in-out;
+        // animation: slider 2s infinite;
         animation-name: slider;
+        animation-duration: .2s;
+        animation-delay: 0;
+        animation-fill-mode: repeat;
+        animation-iteration-count: infinite;
 
     }
 
     @keyframe slider {
         0%{
-                height: 0%;
+                   transform: translateY(-10px);
         }25%{
-                      height: 25%;
+                            transform: translateY(-60px);
         }50%{
-                  height: 50%;
+                        transform: translateY(-80px);
         }75px{
-                  height: 75%;
+                            transform: translateY(-120px);
         }100%{
-                  height: 100%;
+                        transform: translateY(-10px);
         }
     }
 `
