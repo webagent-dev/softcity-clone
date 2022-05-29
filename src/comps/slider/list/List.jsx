@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useCallback } from 'react'
-import { ListContainer,Image, Num, ListContent, Header, Text  } from './list.styled'
+import React, { useEffect, useState} from 'react'
+import { ListContainer,Image, Num, ListContent, Header, Text  } from './list.styled' 
 function List({item,i}) {
   const [index, setIndex] = useState(0)
   // eslint-disable-next-line react-hooks/exhaustive-deps
