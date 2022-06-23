@@ -14,7 +14,7 @@ export const VideoContainer = styled.div`
         left: 0;
         background: rgba(255, 255, 255,0.5);
          @media(max-width: 950px){
-            // margin-top: 2rem;
+			 
      height: 70vh;
   }
    @media(max-width: 500px){
@@ -64,11 +64,3 @@ export const Vidoe = styled.video`
      object-fit: center;
   }
 `
-// export const OverLay = styled.div`
-//     width: 100vw;
-//     height: 100vh;
-//     position: absolute;
-//     // background: rgba(255, 255, 255,0.5);
-//     background: black;
-//     z-index: 1;
-// `
